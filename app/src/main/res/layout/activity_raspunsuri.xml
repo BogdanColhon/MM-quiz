@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Raspunsuri">
+
+    <Button
+        android:id="@+id/back5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="34dp"
+        android:text="IEȘI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="405dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="19dp"
+        android:fillViewport="true"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+1. Deciziile clasificate după orizontul de timp pentru care se adoptă sunt: strategice,tactice,curente\n\n
+2. Care dintre teoriile următoare nu este una de leadership: Teoria nevoi-scop\n\n
+3. Planurile permanente includ: Politicile,procedurile,regulile\n\n
+4. Tipurile de nevoi care aparțin teoriei nevoilor satisfăcute sunt: Nevoi de împlinire, nevoi de putere, nevoi de afiliație\n\n
+5. Care este ultima etapă de dezvoltare a unei organizații: Colaborare\n\n
+6. Dupa resursele și activitățile controlate avem: Control tehnic,control economic, control financiar\n\n
+7. Care dintre următoarele afirmații nu este o etapă a procesului de control: Direcționare\n\n
+8. Care sunt rolurile interpersonale ale managerilor? Reprezentant,lider,de legătură\n\n
+9. Activitățile de planificare și previzionare sunt activități: Neurgente și importante\n\n
+10. Fabricarea unor produse la un cost mai mic pe bucată este specifică strategiei: Lider de cost"
+            android:textSize="24sp"></TextView>
+
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="405dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="24dp"
+        android:fillViewport="true"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/back5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+1. Care specializare nu este una a marketingului clasic: Marketingul social\n\n
+2. Un avantaj al segmentării piețelor: Oferă o mai bună înțelegere a pieței\n\n
+3. Publicitatea presupune: Promovarea fără costuri din partea firmei\n\n
+4. Care este prima etapă a procesului de adoptare a produsului? Etapa de luare la cunoștință\n\n
+5. Care dintre următoarele exemple nu este o piață de clienți: Piața neagră\n\n
+6. În care etapă a ciclului de viață a unei firme, vânzările ating punctul maxim? Maturitate\n\n
+7. Ce factor nu trebuie luat in considerare la stabilirea prețului? Ambiții personale\n\n
+8. Care dintre următoarele exemple nu este o caracteristică a serviciilor: Tangibilitate\n\n
+9. Micromediul firmei nu include: Consilieri\n\n
+10. Cei 4 P ai mixului de marketing semnifică: Produs, Preț, Promovare, Plasare"
+            android:textSize="24sp"></TextView>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="202dp"
+        android:text="Management"
+        android:textColor="#018786"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="242dp"
+        android:text="Marketing"
+        android:textColor="#018786"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
